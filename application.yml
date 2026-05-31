@@ -7,3 +7,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8088/eureka/
+//but to ensure this file is import in your application do this below
+
+spring:
+  application:
+    name: CONFIG-SERVER-NAME
